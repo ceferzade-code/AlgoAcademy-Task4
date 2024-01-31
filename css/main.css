@@ -5,16 +5,20 @@ section{
   grid-template-columns: auto auto auto auto auto auto auto auto;
 width: 800px;
 height: 800px;
-/* text-align: center; */
+text-align: center;
+margin: 20px;
+margin: auto;
+background-color: rgba(157, 243, 214, 0.541);
 }
 
 section>div{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     /* background-color: aqua; */
     margin: 0;
     padding: 15px;
     position: relative;
+   
 }
 
 section>div.tek{
