@@ -1,0 +1,19 @@
+
+section{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+width: 800px;
+height: 800px;
+
+}
+
+section>div{
+    width: 100px;
+    height: 100px;
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 15px;
+}
+section>div.tek{
+    background-color:rgb(9, 90, 9);
+}
