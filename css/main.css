@@ -14,11 +14,34 @@ section>div{
     /* background-color: aqua; */
     margin: 0;
     padding: 15px;
+    position: relative;
 }
+
 section>div.tek{
     background-color:rgb(9, 90, 9);
 }
-
+section>div.tek>p{
+    color: white;
+}
 section>div>img{
     width: 100%;
+}
+section>div>p{
+    position: absolute;
+    color: rgb(9, 90, 9);
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+section>div>h3{
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+    padding: 0;
+    color:rgb(9, 90, 9) ;
+}
+section>div.tek>h3{
+    color: white;
 }
