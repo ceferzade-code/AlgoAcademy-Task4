@@ -1,10 +1,11 @@
 
+
 section{
     display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
 width: 800px;
 height: 800px;
-
+/* text-align: center; */
 }
 
 section>div{
@@ -16,4 +17,8 @@ section>div{
 }
 section>div.tek{
     background-color:rgb(9, 90, 9);
+}
+
+section>div>img{
+    width: 100%;
 }
